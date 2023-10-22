@@ -1,0 +1,35 @@
+@import "variables";
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto,"Helvetica Neue",sans-serif;
+  background: $main-bg-color;
+  color: $text-color;
+}
+
+p {
+  line-height: 1.5;
+}
+
+button:focus {
+  outline: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
