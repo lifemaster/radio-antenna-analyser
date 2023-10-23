@@ -1,0 +1,26 @@
+@import 'variables';
+@import 'mixins';
+
+a {
+  display: block;
+  &:hover {
+    .title {
+      text-decoration: underline;
+    }
+  }
+}
+
+.image-container {
+  @include flex-center;
+  max-width: 300px;
+  max-height: 200px;
+  img {
+    max-width: 300px;
+    max-height: 200px;
+  }
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+}
